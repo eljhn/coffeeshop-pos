@@ -1,0 +1,66 @@
+body {
+      background-image: url("pictures/ps_pg1_bg.jpg");
+      background-size: cover; 
+      background-position: center;  
+      background-repeat: no-repeat;  
+      margin: 0;
+      padding: 0;
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      max-width: 320px; /* For mobile responsiveness */
+    }
+
+    .glass-card h2 {
+      font-family: Georgia, Times, "Times New Roman", serif;
+      color: white;
+      font-size: 1.8rem;
+    }
+
+    .glass-card p {
+      color: white;
+      font-size: 1rem;
+    }
+
+    .btn-custom {
+      background-color: #838383;
+      color: white;
+      padding: 0.6rem 2rem;
+      font-size: 1rem;
+      border-radius: 10px;
+    }
+
+    .btn-custom:hover {
+      background-color: #696464;
+      color: white;
+    }
+
+    /* Responsive tweaks for small screens */
+    @media (max-width: 375px) {
+      .glass-card {
+        padding: 1.5rem;
+        max-width: 90%;
+      }
+      .glass-card h2 {
+        font-size: 1.5rem;
+      }
+      .glass-card p {
+        font-size: 0.9rem;
+      }
+      .btn-custom {
+        font-size: 0.9rem;
+        padding: 0.5rem 1.5rem;
+      }
+    }
