@@ -1,0 +1,22 @@
+.custom-color {
+    background-color: #A08963;
+}
+
+/* Mobile-specific adjustments */
+    @media (max-width: 375px) {
+      table {
+        font-size: 12px;
+      }
+      th, td {
+        padding: 4px;
+      }
+      .header-actions {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+      }
+      .btn {
+        padding: 6px 10px;
+        font-size: 12px;
+      }
+    }
