@@ -1,0 +1,45 @@
+{
+  "name": "my-nw-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "nw-react-scripts": "^0.0.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "scripts": {
+    "start": "nw-react-scripts start",
+    "build": "nw-react-scripts build",
+    "test": "nw-react-scripts test",
+    "eject": "nw-react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "nw-react-app",
+      "nw-react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "public/index.html",
+  "build": {
+    "nwVersion": "latest",
+    "nwFlavor": "normal",
+    "platforms": [
+      "win32",
+      "win64"
+    ],
+    "buildDir": "./out"
+  },
+  "node-remote": "*://*/*"
+}
